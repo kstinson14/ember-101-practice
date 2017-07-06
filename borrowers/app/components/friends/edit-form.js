@@ -30,7 +30,7 @@ export default Ember.Component.extend({
     },
     cancel() {
       console.log('+- cancel action in edit-form component');
-      this.cancel();
+      this.cancel((this.get('model')));
     }
   }
 });
