@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   actions: {
-    show(model){
+    delete(){
       this.get('model').deleteRecord();
       model.deleteRecord();
 
